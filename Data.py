@@ -1,8 +1,7 @@
 import pandas as pd
 import streamlit as st
-
-import missingno as msno
 import plotly.figure_factory as ff
+
 
 def Data(df):
     path=r"Dataset\Cleaned_cal_dataset.csv"
