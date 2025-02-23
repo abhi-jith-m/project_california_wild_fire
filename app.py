@@ -6,7 +6,7 @@ if 'key' not in st.session_state:
 
 st.set_page_config(layout="wide")
 
-path = r"Dataset\california.csv"
+path = r"Dataset/california.csv"
 df=pd.read_csv(path,low_memory=False)
 Data(df)
 
